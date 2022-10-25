@@ -1,0 +1,55 @@
+{
+    "name": "microbit-snake-game",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*"
+    },
+    "files": [
+        ".yotta.json",
+        "module.json",
+        "package.json",
+        "yotta_modules/ble-nrf51822/.yotta_origin.json",
+        "yotta_modules/ble-nrf51822/module.json",
+        "yotta_modules/ble/.yotta_origin.json",
+        "yotta_modules/ble/CONTRIBUTING.md",
+        "yotta_modules/ble/DOXYGEN_FRONTPAGE.md",
+        "yotta_modules/ble/README.md",
+        "yotta_modules/ble/module.json",
+        "yotta_modules/mbed-classic/.yotta_origin.json",
+        "yotta_modules/mbed-classic/module.json",
+        "yotta_modules/mbed-classic/targets.json",
+        "yotta_modules/mbed-classic/targets/hal/TARGET_NXP/TARGET_LPC11XX_11CXX/README.md",
+        "yotta_modules/microbit-dal/.yotta_origin.json",
+        "yotta_modules/microbit-dal/README.md",
+        "yotta_modules/microbit-dal/module.json",
+        "yotta_modules/microbit/.yotta.json",
+        "yotta_modules/microbit/.yotta_origin.json",
+        "yotta_modules/microbit/README.md",
+        "yotta_modules/microbit/module.json",
+        "yotta_modules/nrf51-sdk/.yotta_origin.json",
+        "yotta_modules/nrf51-sdk/README.md",
+        "yotta_modules/nrf51-sdk/module.json",
+        "yotta_targets/bbc-microbit-classic-gcc/.yotta_origin.json",
+        "yotta_targets/bbc-microbit-classic-gcc/readme.md",
+        "yotta_targets/bbc-microbit-classic-gcc/target.json",
+        "yotta_targets/mbed-gcc/.yotta_origin.json",
+        "yotta_targets/mbed-gcc/CHANGELOG.md",
+        "yotta_targets/mbed-gcc/readme.md",
+        "yotta_targets/mbed-gcc/target.json",
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "5.0.12",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
